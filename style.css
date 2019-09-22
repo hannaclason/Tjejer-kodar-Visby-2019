@@ -1,0 +1,268 @@
+body{
+background-color: white;
+
+}
+
+/* Hur gör man om man har en font som inte finns? */
+
+/* Text nedan */
+
+h1.toprubrik {
+  color: #37314C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 20px 20px;
+}
+
+h1.takelearing {
+  color: #EA6F52;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 70px;
+}
+
+
+p {
+  color: #37314C;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  color: #EA6F52;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #37314C;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.toptext {
+  color: #37314C;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 70px;
+  width: 60%;
+}
+
+.basics {
+  color: #00C89E;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0px 6px;
+}
+
+.advanced {
+  color: #00C89E;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0px 6px;
+}
+
+.kurstext {
+  color: #37314C;
+  font-family: 'Open Sans', sans-serif;
+  width: 300px;
+}
+
+.support {
+  color: #37314C;
+}
+
+.website {
+  color: #37314C;
+}
+
+.storyengine {
+  color: #37314C;
+}
+
+.email {
+  color: #37314C;
+}
+
+.getstarted {
+  color: #37314C;
+}
+
+.adress {
+width: 150px;
+}
+
+/* Bilder nedan  */
+
+.headerlogo {
+width: 610px;
+}
+
+.byggklossar {
+  width: 500px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.raket {
+  width: 500px;
+}
+
+.book {
+width: 40px;
+}
+
+.tools {
+width: 40px;
+}
+
+.logga {
+width: 100px;
+}
+
+.storylogga {
+width: 300px;
+margin: 30px 10px;
+}
+
+.socialmedia {
+  width: 60px;
+  margin: 0px 20px;
+}
+
+/* Divar nedan  */
+
+header {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+}
+
+.rubrik {
+padding: 50px;
+}
+
+.headerlogo {
+padding: 30px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: flex-end;
+}
+
+.parent {
+background-color: #FEF4EB;
+height: 350px;
+padding: 30px;
+margin: 40px 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.parent1 {
+background-color: #FEF4EB;
+height: 350px;
+padding: 30px;
+margin: 40px 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.child1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.child2 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.child3 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.child4 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+.knapp {
+  width: 100px;
+  height: 30px;
+  background-color: #00C89E;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bokbasic {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.adsession {
+ width: 350px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: flex-start;
+}
+
+.header {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+footer {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.smedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+}
+
+/* Prova responsiv design */
+
+@@media query (max-width:900px){
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+}

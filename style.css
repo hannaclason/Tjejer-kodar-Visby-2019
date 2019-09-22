@@ -232,7 +232,7 @@ justify-content: space-evenly;
 }
 
 .bokbasic {
-  width: 200px;
+  width: 350px;
   display: flex;
   flex-direction: row;
   align-items: center;
